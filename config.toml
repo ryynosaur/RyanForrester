@@ -1,0 +1,36 @@
+baseURL = "https://ryanforrester.ca"
+languageCode = "en-us"
+title = "Ryan's Game Dev Blog"
+theme = "hugo-book"
+
+
+disablePathToLower = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+  [markup.highlight]
+    lineNoStart = 1
+    lineNos = true
+    style = "native"
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+# [[menu.before]]
+
+[[menu.after]]
+  name = "Steam"
+  url = "https://twitter.com/ryynosaur"
+  weight = 10
+
+[[menu.after]]
+  name = "Twitter"
+  url = "https://twitter.com/ryynosaur"
+  weight = 10
+
+[params]
+    BookTheme = 'dark'
+    BookToC = true
+    BookComments = false
