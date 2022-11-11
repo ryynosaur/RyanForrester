@@ -1,6 +1,6 @@
 baseURL = "https://ryanforrester.ca"
 languageCode = "en-us"
-title = "Ryan's Game Dev Blog"
+title = "ryan's game dev blog"
 theme = "hugo-book"
 
 
@@ -21,12 +21,12 @@ disablePathToLower = true
 # [[menu.before]]
 
 [[menu.after]]
-  name = "Steam"
-  url = "https://twitter.com/ryynosaur"
+  name = "steam"
+  url = "https://store.steampowered.com/developer/RyanForrester"
   weight = 10
 
 [[menu.after]]
-  name = "Twitter"
+  name = "twitter"
   url = "https://twitter.com/ryynosaur"
   weight = 10
 
